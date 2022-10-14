@@ -1,0 +1,139 @@
+@media (max-width: 600px) {
+  /*navbar-start*/
+
+  #nav {
+    max-width: 100% !important;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 43px !important;
+    &-left {
+      max-width: 100% !important;
+      width: 100vw;
+      height: 43px !important;
+      flex-direction: column;
+      align-items: flex-start;
+      min-width: 0;
+      flex: 100%;
+      #home {
+        padding: 16px !important;
+      }
+
+      &-hidden {
+        display: none;
+        max-width: 100% !important;
+        width: 100vw !important;
+        height: 43px !important;
+        flex-direction: column;
+        align-items: flex-start;
+
+        position: fixed;
+        top: 43px;
+
+        a {
+          background-color: white;
+          color: black;
+          width: 100%;
+          height: 43px !important;
+          padding: 16px 0;
+          padding-left: 16px;
+          padding-right: 45px;
+          i {
+            display: none;
+          }
+        }
+        #search {
+          display: flex;
+          justify-content: flex-start;
+          height: 43px;
+        }
+      }
+    }
+
+    &-right {
+      display: inline-block;
+      &-top {
+        display: none !important;
+      }
+      a {
+        i.fa.fa-search {
+          display: none;
+        }
+      }
+
+      #bars {
+        display: flex;
+      }
+    }
+  }
+  /*navbar-end*/
+
+  /*showcase-start*/
+
+  #showcase {
+    #showcase-text {
+      #span2 {
+        display: none;
+      }
+    }
+  }
+
+  /*showcase-end*/
+
+  /*about-start*/
+  #about {
+    &-direction {
+      display: flex;
+      #about-right {
+        display: none;
+      }
+    }
+  }
+  /*about-end*/
+
+  /*myworks-start*/
+
+  #myworks {
+    #myworks-images {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  }
+
+  /*myworks-end*/
+
+  /*whereiwork-start*/
+  #whereiwork {
+    #whereiwork-contact {
+      display: block;
+      #whereiwork-contact-left {
+        display: block;
+        width: 100%;
+      }
+
+      #whereiwork-contact-right {
+        display: block;
+        #fifty {
+          display: block;
+
+          input[type="text"] {
+            margin-right: 0px;
+          }
+          input[type="mail"] {
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+  }
+  /*whereiwork-end*/
+
+  /*about2-start*/
+  #about2 {
+    #about2-top {
+      display: block;
+    }
+  }
+
+  /*about2-end*/
+}

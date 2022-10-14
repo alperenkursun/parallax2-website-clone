@@ -1,0 +1,40 @@
+#showcase {
+  background-image: url("../img/parallax1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  opacity: 0.75;
+  position: relative;
+
+  #showcase-text {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24px;
+    padding: 12px 24px;
+    white-space: nowrap;
+    font-family: "Lato", sans-serif !important;
+
+    animation-name: animated;
+    animation-duration: 0.8s;
+  }
+}
+
+@keyframes animated {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

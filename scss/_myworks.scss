@@ -1,0 +1,55 @@
+#myworks {
+  max-width: 974px;
+  h3 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+  }
+
+  p {
+    text-align: center;
+    em {
+      text-align: center;
+      color: #777;
+      line-height: 1.8;
+      font-family: "Lato", sans-serif;
+    }
+  }
+
+  #myworks-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+
+    img {
+      &:hover {
+        opacity: 0.75;
+        cursor: pointer;
+      }
+    }
+  }
+
+  button {
+    margin-top: 64px;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 12px 24px;
+    border: none;
+    font-size: 15px;
+    font-family: "Lato", san-serif;
+    font-size-adjust: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 400;
+    height: 51px;
+
+    &:hover {
+      background-color: #ccc;
+      cursor: pointer;
+    }
+  }
+}

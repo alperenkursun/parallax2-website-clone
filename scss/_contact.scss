@@ -1,0 +1,21 @@
+#contacts {
+  background-image: url("../img/parallax3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  opacity: 0.75;
+  position: relative;
+  h1 {
+    color: white;
+    letter-spacing: 10px;
+    font-size: 36px;
+    font-family: "Lato", sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
